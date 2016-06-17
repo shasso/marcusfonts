@@ -4,13 +4,9 @@
  */
 @font-face {
     font-family: 'aaa-manuscript_marcusregular';
-    src: url('https://shasso.github.io/marcusfonts/ea/v1/aaa-manuscript_marcus-webfont.eot');
-    src: url('https://shasso.github.io/marcusfonts/ea/v1/aaa-manuscript_marcus-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://shasso.github.io/marcusfonts/ea/v1/aaa-manuscript_marcus-webfont.woff2') format('woff2'),
-         url('https://shasso.github.io/marcusfonts/ea/v1/aaa-manuscript_marcus-webfont.woff') format('woff'),
-         url('https://shasso.github.io/marcusfonts/ea/v1/aaa-manuscript_marcus-webfont.ttf') format('truetype'),
-         url('https://shasso.github.io/marcusfonts/ea/v1/aaa-manuscript_marcus-webfont.svg#aaa-manuscript_marcusregular') format('svg');
-    font-weight: normal;
+
+    src: url('https://shasso.github.io/marcusfonts/ea/v1/aaa-manuscript_marcus-webfont.woff') format('woff');
+         
     font-style: normal;
 
 }
