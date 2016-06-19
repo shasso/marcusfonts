@@ -1,0 +1,10 @@
+/*
+ * Estrangelo Marcus Font https://shasso.github.io/sasfonts/earlyaccess/Assyrian-Dan-Regular.css
+ */
+@font-face {
+    font-family: 'Assyrian-Dan-Regular';
+    src: url('http://shasso.github.io/sasfonts/ea/v1/Assyrian-Dan-Regular.WOFF') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
