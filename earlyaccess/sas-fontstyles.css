@@ -1,0 +1,83 @@
+/*
+	SAS Fonts Style sheet to be used in any web page that needs to download these fonts
+	With the @font-face rule, web designers no longer have to use one of the "web-safe" fonts. 
+	1) You need to put inser this line in your <head/> container
+	<link href="http://shasso.github.io/sasfonts/earlyaccess/sas-fontstyles.css" rel='stylesheet' type='text/css'>
+*/
+@font-face {
+	font-family: 'Assyrian Estrangela';
+	src: url('http://shasso.github.io/sasfonts/ea/v1/AssyrianEstrangela.woff') format('woff'),
+		url('http://shasso.github.io/sasfonts/ea/v1/AssyrianEstrangela.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Assyrian-Dan-Regular';
+    src: url('http://shasso.github.io/sasfonts/ea/v1/Assyrian-Dan-Regular.WOFF') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'east_syriac_marcusregular';
+    src: url('https://shasso.github.io/sasfonts/ea/v1/eastsm-webfont.woff') format('woff');      
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'estrangelo_marcusregular';
+    src: url('https://shasso.github.io/sasfonts/ea/v1/estrm-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'aaa-manuscript_marcusregular';
+    src: url('https://shasso.github.io/sasfonts/ea/v1/aaa-manuscript_marcus-webfont.woff') format('woff');
+    font-weight: normal;     
+    font-style: normal;
+}
+
+/*
+ * Noto Sans Syriac Eastern (Syriac Eastern) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Noto Sans Syriac Eastern';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosanssyriaceastern/v1/NotoSansSyriacEastern-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/notosanssyriaceastern/v1/NotoSansSyriacEastern-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/notosanssyriaceastern/v1/NotoSansSyriacEastern-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosanssyriaceastern/v1/NotoSansSyriacEastern-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosanssyriaceastern/v1/NotoSansSyriacEastern-Regular.ttf) format('truetype');
+}
+
+/*
+ * Noto Sans Syriac Western (Syriac Western) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Noto Sans Syriac Western';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosanssyriacwestern/v1/NotoSansSyriacWestern-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/notosanssyriacwestern/v1/NotoSansSyriacWestern-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/notosanssyriacwestern/v1/NotoSansSyriacWestern-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosanssyriacwestern/v1/NotoSansSyriacWestern-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosanssyriacwestern/v1/NotoSansSyriacWestern-Regular.ttf) format('truetype');
+}
+
+/*
+ * Noto Sans Syriac Estrangela (Syriac Estrangela) http://www.google.com/fonts/earlyaccess
+ */
+@font-face {
+  font-family: 'Noto Sans Syriac Estrangela';
+  font-style: normal;
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosanssyriacestrangela/v1/NotoSansSyriacEstrangela-Regular.eot);
+  src: url(//fonts.gstatic.com/ea/notosanssyriacestrangela/v1/NotoSansSyriacEstrangela-Regular.eot?#iefix) format('embedded-opentype'),
+       url(//fonts.gstatic.com/ea/notosanssyriacestrangela/v1/NotoSansSyriacEstrangela-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosanssyriacestrangela/v1/NotoSansSyriacEstrangela-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosanssyriacestrangela/v1/NotoSansSyriacEstrangela-Regular.ttf) format('truetype');
+}
